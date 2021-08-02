@@ -1,0 +1,53 @@
+.widgetLg {
+  flex: 2;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  padding: 20px;
+}
+.widgetLgTitle {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.widgetLgTable{
+ width: 100%;
+ border-spacing: 20px;
+}
+
+.widgetLgTh{
+  text-align: left;
+}
+.widgetLgUser{
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.widgetLgImg {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.widgetLgDate, .widgetLgAmount{
+  font-weight: 300;
+}
+.widgetLgButton {
+  padding: 5px 7px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.Approved{
+  background-color: #e5faf2;
+  color: rgb(15, 58, 15);
+}
+.Declined{
+  background-color: #fff0f1;
+  color: rgb(240, 85, 134);
+}
+.Pending{
+  background-color: #ebf1fe;
+  color: rgb(101, 101, 150);
+}
